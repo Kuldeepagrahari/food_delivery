@@ -1,0 +1,92 @@
+.header {
+    background-image: url("https://media.istockphoto.com/id/953140058/photo/cooking-nd-seasoning-spices-border-on-black-slate-background.webp?b=1&s=170667a&w=0&k=20&c=8Vmnl8mHhMmc2WvnEEj0RDajvg75bizccWzrTXIh2z8=");
+    background-repeat: no-repeat;
+    background-size: 1020px 500px;
+    position: relative;
+    border-radius: 10px;
+
+    height: 34vw;
+    margin: 30px auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* padding: 5vh 5vh; */
+
+}
+
+
+.header-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 20%;
+    left: 19vw;
+    top:10vh;
+    animation: fadeIn 3s;
+
+    /* padding: 5vh 5vw; */
+}
+
+.header-content h2 {
+    font-weight: 500;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: max(4.5vw, 20px);
+
+}
+
+.header-content p {
+    color: white;
+    font-size: 2vw;
+    font-weight: 600;
+    text-shadow: 5px 5px 10px black;
+    /* background-color: rgb(178, 175, 175); */
+
+}
+
+.header-content button {
+    border: none;
+    color: white;
+    font-weight: 1000;
+    padding: 1vw 2.3vw;
+    background-color:tomato;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    width: 15vw;
+    height: 3vh;
+    border: 2px solid tomato;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+@media (max-width:1050px) {
+
+
+    .header-content {
+        max-width: 45%;
+    }
+}
+
+
+@media (max-width:750px) {
+
+    .header-content {
+        max-width: 65%;
+    }
+
+    .header-content p {
+        display: none;
+    }
+
+    .header-content button {
+        padding: 2vw 4vw;
+    }
+}

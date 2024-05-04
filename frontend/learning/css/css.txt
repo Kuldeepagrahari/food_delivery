@@ -1,0 +1,8 @@
+  height: 100%;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: #00000090;
+
+layer ke upar ek transparent layer banadega aur is box par tum koi dusra chota  container rakh sakte jaise isme signin wala option h
+    to make this box seems blur/transparent over a existing box and we can place a container on this  container will

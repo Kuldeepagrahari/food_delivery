@@ -1,0 +1,49 @@
+.exploreMenu{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.exploreMenu h1{
+    color:#262626;
+    font-weight: 500;
+
+}
+.exploreMenu-text{
+   /* The CSS code `max-width: 60%;` sets the maximum width of the element with the class
+   `exploreMenu-text` to be 60% of its containing element's width. This means that the element will
+   not exceed 60% of the available width. */
+    max-width: 60%;
+    color:#808080;
+}
+
+.exploreMenu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    overflow-x: scroll;
+    text-align: center;
+}
+.exploreMenu-list::-webkit-scrollbar{
+    display: none;
+}
+
+.exploreMenu-list img{
+    width: max(7.5vw, 80px);
+    cursor: pointer;
+    border-radius: 50%;
+  /* The CSS code `transition: 0.2s;` is setting a transition effect on the specified properties of an
+  element. In this case, it specifies that any property changes on the element will have a
+  transition duration of 0.2 seconds. This means that when a property like width, color, or opacity
+  changes on the element, the change will be animated over a duration of 0.2 seconds, creating a
+  smooth transition effect. */
+    transition: 0.2s;
+
+}
+
+.exploreMenu-list-item .active{
+    border:4px solid tomato;
+    padding: 2px;
+}
+
