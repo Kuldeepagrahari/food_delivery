@@ -1,0 +1,5 @@
+Use <a> Tag: When linking to external resources or pages outside of the React application.
+
+Full Page Reloads: Clicking on an anchor tag with an href attribute will typically cause the browser to perform a full page reload unless JavaScript is used to intercept the default behavior.
+
+Use Link Component: When handling navigation within a React application that uses React Router for client-side routing. This is especially useful for building single-page applications where you want to navigate between different views without causing full page reloads.

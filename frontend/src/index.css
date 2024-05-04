@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+  scroll-behavior: smooth;
+}
+/* it will be applied in all html elements */
+
+body{
+  min-height: 100vh;
+  background-color: rgb(247, 241, 241);
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+/* This CSS code is styling an element with the class name "app". It sets the width of the element to
+80% of its containing element and centers it horizontally on the page using auto margins. */
+
+.app{
+  width:80%;
+  margin: auto;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
